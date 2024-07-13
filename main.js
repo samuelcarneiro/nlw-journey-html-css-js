@@ -1,3 +1,21 @@
+// Formatador de Datas com o DayJS
+const formatador = (data) => {
+    return {
+        //Formatando a data com o DAYJS
+        dia: {
+            numerico: dayjs(data).format('DD'),
+            semana: {
+                curto: dayjs(data).format('ddd'),
+                longo: dayjs(data).format('dddd')
+            }
+        },
+        mes: dayjs(data).format('MMMM'),
+        hora: dayjs(data).format('HH:mm')
+    }
+}
+
+formatador(new Date('2024-07-13'))
+
 // Object atividade 
 const atividade = {
     nome: "Almoço",
@@ -6,7 +24,7 @@ const atividade = {
 }
 
 // Lista, array, vetor []
-const atividades = [
+let atividades = [
     atividade,
     {
         nome: "Estudar desenvolvimento Front-end",
@@ -30,12 +48,19 @@ const criarItemDeAtividade = (atividade) => {
 
     input += '>'
 
+    const formatar = formatador(atividade.data)
+
     return `
     <div>
         ${input}
         <!-- <span> tag sem significado semântico -->
         <span>${atividade.nome}</span>
-        <time>${atividade.data}</time>
+        <time>
+            ${formatar.dia.semana.longo},
+            ${formatar.dia.numerico}
+            de ${formatar.mes}
+            às ${formatar.hora}h
+        </time>
     </div>
     `
 }
