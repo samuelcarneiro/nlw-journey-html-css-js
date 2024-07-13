@@ -40,10 +40,19 @@ const criarItemDeAtividade = (atividade) => {
     `
 }
 
-// Pegar o elemento section
-const section = document.querySelector('section')
+const atualizarListaDeAtividades = (atividade) => {
+    // Pegar o elemento section
+    const section = document.querySelector('section')
 
-for(let atividade of atividades) {
-    // Modificar o conteúdo dentro do section chamando o conteúdo da função
-    section.innerHTML += criarItemDeAtividade(atividade)
+    // Verificar se a lista está vazia
+    if(atividades.length == 0) {
+        section.innerHTML = '<p>Nenhuma atividade cadastrada!</p>'
+        return
+    }
+
+    for(let atividade of atividades) {
+        // Modificar o conteúdo dentro do section chamando o conteúdo da função
+        section.innerHTML += criarItemDeAtividade(atividade)
+    }
 }
+atualizarListaDeAtividades()
