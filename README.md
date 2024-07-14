@@ -1,14 +1,17 @@
 <h1 align="center"> NLW Journey | Rocketseat [Trilha HTML+CSS+JS] </h1>
-Trilha HTML/CSS/JS do NLW Journey da Rocketseat
-Projeto: Planejador de atividades para viagens
+<p align="center">Trilha HTML/CSS/JS do NLW Journey da Rocketseat <br>
+Projeto: Planejador de atividades para viagens</p>
 <br>
+
+[Clique aqui para acessar o projeto](https://samuelcarneiro.github.io/#/)
+<br> 
 <br>
 
-[Clique aqui para acessar o projeto](https://samuelcarneiro.github.io/calculadora-churrasco/)
-
-
+*Desktop e Mobile version*
 ![preview](./.github/screenshot-desktop-nlw-journey-htmlcssjs.png)
+
 ![preview](./.github/screenshot-mobile-nlw-journey-htmlcssjs.png)
+
 
 
 ### Tecnologias utilizadas
