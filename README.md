@@ -3,7 +3,7 @@
 Projeto: Planejador de atividades para viagens</p>
 <br>
 
-[Clique aqui para acessar o projeto](https://samuelcarneiro.github.io/#/)
+[Clique aqui para acessar o projeto](https://samuelcarneiro.github.io/nlw-journey-html-css-js/)
 <br> 
 <br>
 
