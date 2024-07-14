@@ -17,23 +17,28 @@ formatador(new Date('2024-07-13'))
 
 // Object atividade 
 const atividade = {
-    nome: "Almoço",
+    nome: "Concluír NLW Journey | Rocketseat",
     data: new Date("2024-07-08 10:00"),
-    finalizada: false
+    finalizada: true
 }
 
 // Lista, array, vetor []
 let atividades = [
     atividade,
     {
-        nome: "Estudar desenvolvimento Front-end",
-        data: new Date("2024-07-12 22:00"),
+        nome: "Resgatar certificado da trilha",
+        data: new Date("2024-07-14 11:00"),
         finalizada: true
     },
     {
-        nome: "Estudar Back-end",
-        data: new Date("2024-07-20 20:00"),
-        finalizada: false
+        nome: "Trust your journey",
+        data: new Date("2024-07-14 08:00"),
+        finalizada: true
+    },
+    {
+        nome: "Never stop learning",
+        data: new Date("2024-07-14 10:00"),
+        finalizada: true
     }
 ]
 
@@ -134,11 +139,11 @@ const salvarAtividade = (event) => {
 //Função para criar os dias da seleção do formulário
 const criarDiasSelecao = () => {
     const dias = [
-        "2024-07-20",
-        "2024-07-21",
-        "2024-07-22",
-        "2024-07-23",
-        "2024-07-24",
+        "2024-07-08",
+        "2024-07-09",
+        "2024-07-10",
+        "2024-07-11",
+        "2024-07-12",
     ]
 
     let diasSelecao = ''
