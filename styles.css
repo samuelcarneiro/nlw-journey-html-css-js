@@ -162,6 +162,7 @@ time.full {
     display: none;
 }
 
+
 @media (width > 1024px) {
     #app {
         display: flex;
@@ -171,9 +172,30 @@ time.full {
 
     main {
         margin-top: 0;
+        flex: 1;
     }
 
     h1 {
         text-align: left;
+    }
+
+    time.full {
+        display: block;
+    }
+
+    time.short {
+        display: none;
+    }
+}
+
+section .card-bg {
+    /* Chamar a animacao criada e coloca um tempo para execução */
+    animation: appear 300ms;
+}
+
+/* animação */
+@keyframes appear {
+    from {
+        opacity: 0;
     }
 }

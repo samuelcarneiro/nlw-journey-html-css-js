@@ -66,7 +66,7 @@ const criarItemDeAtividade = (atividade) => {
             <span>${atividade.nome}</span>
         </div>
 
-        <time class="short>
+        <time class="short">
             ${formatar.dia.semana.curto},
             ${formatar.dia.numerico} <br>
             ${formatar.hora}
