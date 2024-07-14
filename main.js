@@ -17,14 +17,19 @@ formatador(new Date('2024-07-08'))
 
 // Object atividade 
 const atividade = {
-    nome: "Concluír NLW Journey | Rocketseat",
-    data: new Date("2024-07-08 10:00"),
+    nome: "Iniciar NLW Journey | Rocketseat",
+    data: new Date("2024-07-08 21:00"),
     finalizada: true
 }
 
 // Lista, array, vetor []
 let atividades = [
     atividade,
+    {
+        nome: "Concluir NLW Journey | Rocketseat",
+        data: new Date("2024-07-14 11:00"),
+        finalizada: true
+    },
     {
         nome: "Resgatar certificado da trilha",
         data: new Date("2024-07-14 11:00"),
