@@ -13,7 +13,7 @@ const formatador = (data) => {
         hora: dayjs(data).format('HH:mm')
     }
 }
-formatador(new Date('2024-07-13'))
+formatador(new Date('2024-07-08'))
 
 // Object atividade 
 const atividade = {
